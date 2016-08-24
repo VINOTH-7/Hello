@@ -3,6 +3,7 @@ public class firstRepeatingNumber {
 	public static void main(String[] args) {
 			Scanner input=new Scanner(System.in);
 			int siz=input.nextInt();
+			if(siz>0){
 			int count=0;
 			int[] arr=new int[siz];
 			for(int i=0;i<siz;i++)
@@ -13,7 +14,9 @@ public class firstRepeatingNumber {
 					{
 						System.out.println(arr[i]);
 						System.exit(0);
-					}
+					}}
+					else
+					System.out.println("Error");
 	}
 
 }
