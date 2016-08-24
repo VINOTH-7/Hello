@@ -5,6 +5,8 @@ public class findingRepeatedNumbers {
 	public static void main(String[] args) {
 		Scanner input=new Scanner(System.in);
 		int siz=input.nextInt();
+		if(siz<0)
+			System.out.print("Error");
 		int[] count=new int[siz];
 		int[] arr=new int[siz];
 		for(int i=0;i<siz;i++)
