@@ -7,8 +7,6 @@ public class squarePoints {
 			for(int j=0;j<2;j++)
 				pt[i][j]=input.nextInt();
 		for(int i=0;i<4;i++)
-			for(int j=i+1;j<2;j++)
-				{
 				if(i!=3)
 				{
 					if(pt[i][1]==pt[j][0])
@@ -27,7 +25,6 @@ public class squarePoints {
 					System.exit(0);
 				}
 			}
-		}
 		System.out.println("Square");
 	}
 }
